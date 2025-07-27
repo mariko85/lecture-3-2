@@ -233,14 +233,49 @@ header{
 }
 
 
-.div-photo-text  {
+
+
+
+.div-photo-text h2 {
  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: #DFE2EF;
 }
 
 
+
+.div-photo-text h4 {
+ position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #DFE2EF;
+    font-size: 10px;
+}
+
+
+
+.div-photo-text h2 {
+ position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #DFE2EF;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.div-photo-text p {
+ position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #DFE2EF;
+  font-weight: 400;
+  font-size: 15px;
+}
 
 
 

@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 73px;
 }
 
 
@@ -28,6 +29,7 @@
      display: flex;
     justify-content:space-between;
     align-items: center;
+    
 
 }
 
@@ -49,7 +51,8 @@ header{
     display: flex;
     justify-content: flex-end;
      align-items: center;
-    gap: 42px;
+     width: 427px;
+   
 }
 
 
@@ -66,7 +69,7 @@ header{
      display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 42px;
+    gap: 27px;
 
 }
 .header-button{
@@ -74,8 +77,13 @@ header{
     width: 113px;
     height: 43px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    margin-left: 30px;
+    color: #3A79FF;
+    font-size: 13px;
+    font-weight: 700;
+    
 
 }
 
@@ -124,25 +132,56 @@ header{
 .section-signup-leters{
     width: 330px;
     height: 95px;
+    text-align: left;
 } 
+
+.section-signup-leters p{
+    color: #8D96BD;
+
+}
+
+.section-signup-leters h2{
+color: #3D4F9F;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+
+
+
 
 .section-signup-bar-emal{
     background-color: #EFEFF7;
     width: 279px;
     height: 59px;
-    text-align:start;
+     color: #7A85AD;
+
+      display: flex;
+    justify-content:flex-start;
+    align-items: center;
+   
 
 }
+
+
+
 
 
 .section-signup-bar-save{
      background-color:#4D6CE1;
     width: 184px;
     height: 59px;
-    text-align: center;
-
+  
+     display: flex;
+    justify-content: center;
+    align-items: center;
+color: #FFFFFF;
+font-weight: 700px;
 
 }
+
 
 
 .footer-div{
@@ -253,6 +292,7 @@ header{
   transform: translate(-50%, -50%);
   color: #DFE2EF;
     font-size: 10px;
+    font-weight: 500;
 }
 
 
@@ -264,7 +304,7 @@ header{
   transform: translate(-50%, -50%);
   color: #DFE2EF;
   font-size: 48px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .div-photo-text p {
@@ -273,8 +313,9 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   color: #DFE2EF;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 15px;
+  text-align: center;
 }
 
 

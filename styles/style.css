@@ -166,6 +166,46 @@ color: #3D4F9F;
 }
 
 
+.photo-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 284;
+
+     position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #DFE2EF;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
+.photo-button1{
+    width: 130px;
+    height: 42px;
+    font-weight: 700px;
+    font-size: 13px;
+    color: #565F82;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photo-button2{
+    width: 138px;
+    height: 43px;
+    font-weight: 500px;
+    background-color: #6888FF;
+     font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 
@@ -179,6 +219,7 @@ color: #3D4F9F;
     align-items: center;
 color: #FFFFFF;
 font-weight: 700px;
+border-radius: 10px;
 
 }
 
@@ -200,6 +241,8 @@ font-weight: 700px;
 footer{
     height: 287px;
    align-items: center;
+ 
+
 }
 
 
@@ -208,10 +251,11 @@ footer{
 .footer-conteiner{
      max-width: 1206px;
     width: 100%;
-    height: 43px;
-     display: flex;
-    justify-content:space-between;
-    align-items: center;
+    height: 287px;
+      display: flex;
+   justify-content:space-between;
+   align-items: center;
+   margin-top: 250px;
 
 }
 
